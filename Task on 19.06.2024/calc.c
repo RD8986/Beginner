@@ -9,8 +9,7 @@ int main()
     {
         printf("\n Enter an operator (+, -, *, /) or 'x' to exit: ");
         scanf(" %c", &op);
-
-        if (op == 'x')
+        if (op == 'x' && op != 'X')
         {
             break;
         }
